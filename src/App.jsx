@@ -1,21 +1,24 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home.jsx';
 import About from './pages/About.jsx';
+import MainLayout from './components/MainLayout.jsx';
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element=<div>con</div> />
+        <Route element={<MainLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/About"
+            element={
+              <div>
+                <About />
+              </div>
+            }
+          />
+        </Route>
         <Route path="*" element=<div>Not found</div> />
-        <Route
-          path="/About"
-          element={
-            <div>
-              <About />
-            </div>
-          }
-        />
+
         {/* <Route path="/" element={<App />}>
             <Route index element={<Home />} />
             <Route path="teams" element={<Teams />}>
