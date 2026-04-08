@@ -25,4 +25,3 @@ npm start
 
 ## 📸 Screenshot
 ![App Screenshot](screenshot.png)
-
