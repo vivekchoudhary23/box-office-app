@@ -21,3 +21,5 @@ git clone https://github.com/vivekchoudhary23/box-office-app
 cd box-office-app
 npm install
 npm start
+
+A modern box office web app built with React and API integration to search and explore movies and shows.
