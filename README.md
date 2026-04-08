@@ -1,3 +1,4 @@
+A modern box office web app built with React and API integration to search and explore movies and shows.
 # 🎬 Box Office App
 
 🔥 Real-time movie box office tracker with stunning UI
@@ -22,4 +23,3 @@ cd box-office-app
 npm install
 npm start
 
-A modern box office web app built with React and API integration to search and explore movies and shows.
