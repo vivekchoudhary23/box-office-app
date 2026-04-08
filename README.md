@@ -24,4 +24,4 @@ npm install
 npm start
 
 ## 📸 Screenshot
-![App Screenshot](screenshot.png)
+![App Screenshot](Screenshot.png)
