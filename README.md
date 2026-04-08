@@ -23,3 +23,6 @@ cd box-office-app
 npm install
 npm start
 
+## 📸 Screenshot
+![App Screenshot](screenshot.png)
+
