@@ -1,27 +1,27 @@
-A modern box office web app built with React and API integration to search and explore movies and shows.
 # 🎬 Box Office App
 
-🔥 Real-time movie box office tracker with stunning UI
+Search movies and TV shows, view details, and track box office collections with charts.
 
 ## 🚀 Features
-- 🎥 Live box office data
-- 📊 Charts & analytics
+
+- 🔍 Search movies and shows by title
+- 📄 "View Details" page with genres and key info
+- 📊 Box office charts & analytics
 - 🌍 Global + Indian collection tracking
 - ⚡ Fast & responsive UI
 
-## 🖥️ Demo
-(Add screenshots here)
-
 ## 🛠️ Tech Stack
+
 - React / Node.js
 - API Integration
 - Chart.js
 
-## ⚡ Installation
-git clone https://github.com/vivekchoudhary23/box-office-app
-cd box-office-app
-npm install
-npm start
+## ⚙️ Setup
+
+1. Clone the repo
+2. Run `npm install`
+3. Create a `.env` file and add your API key
+4. Run `npm start`
 
 ## 📸 Screenshot
 ![App Screenshot](Screenshot.png)
